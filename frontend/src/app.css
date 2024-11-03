@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body {
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-bg-color);
+}
+
+a {
+    color: var(--tg-theme-link-color);
+}
+
+button {
+    border: 0;
+    border-radius: 1rem;
+    background-color: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+}
